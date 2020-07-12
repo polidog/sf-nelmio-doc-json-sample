@@ -1,0 +1,12 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: Smaple API
+            description: This is an awesome app!
+            version: 1.0.0
+        definitions:
+            new_project:
+                $ref: '%env(API_DOC_HOST)%/json_schema/new.json'
+    areas: # to filter documented areas
+        path_patterns:
+            - ^/api(?!/doc$) # Accepts routes under /api except /api/doc

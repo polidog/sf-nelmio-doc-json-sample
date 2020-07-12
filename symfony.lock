@@ -84,8 +84,27 @@
     "egulias/email-validator": {
         "version": "2.1.18"
     },
+    "exsyst/swagger": {
+        "version": "v0.4.1"
+    },
+    "justinrainbow/json-schema": {
+        "version": "5.2.10"
+    },
     "monolog/monolog": {
         "version": "1.25.4"
+    },
+    "nelmio/api-doc-bundle": {
+        "version": "3.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "c8e0c38e1a280ab9e37587a8fa32b251d5bc1c94"
+        },
+        "files": [
+            "config/packages/nelmio_api_doc.yaml",
+            "config/routes/nelmio_api_doc.yaml"
+        ]
     },
     "nikic/php-parser": {
         "version": "v4.6.0"
@@ -116,6 +135,12 @@
     },
     "psr/log": {
         "version": "1.1.3"
+    },
+    "psr/simple-cache": {
+        "version": "1.0.1"
+    },
+    "ptyhard/json-schema-bundle": {
+        "version": "0.0.3"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
@@ -496,5 +521,8 @@
     },
     "zendframework/zend-eventmanager": {
         "version": "3.2.1"
+    },
+    "zircote/swagger-php": {
+        "version": "2.0.16"
     }
 }

@@ -1,0 +1,2 @@
+ptyhard_json_schema:
+    json_file_directory: '%kernel.project_dir%/public/json_schema'
